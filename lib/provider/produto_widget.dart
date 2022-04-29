@@ -9,8 +9,17 @@ class ProdutoWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.red,
-      child: Text(context.read<ProdutoModel>().nome),
+      child: Padding(
+        padding: const EdgeInsets.only(top: 2, bottom: 2, left: 8, right: 8),
+        child: Text(
+          context.read<ProdutoModel>().nome,
+          style: TextStyle(color: Colors.white),
+        ),
+      ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(100),
+        color: Colors.red,
+      ),
     );
   }
 }

@@ -7,7 +7,6 @@ class ChangeNotifierParge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var controller = Provider.of<ProviderController>(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Change Notifier Page'),

@@ -29,7 +29,7 @@ class ProviderPage extends StatelessWidget {
             children: [
               CircleAvatar(
                 radius: 70,
-                // para as formas anteriores
+                // para as formas anteriores 
                 // backgroundImage: NetworkImage(user),
                 backgroundImage: NetworkImage(user.imgAvatar),
               ),
